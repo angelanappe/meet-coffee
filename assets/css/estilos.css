@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../img/bg-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*que cubra todo el espacio a donde lo estoy aplicando*/
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 3px 6px black;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#conversemos {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+
+.wrapper img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texto p {
+    border: 5px dotted black;
+    padding: 10px;
+}
+
+/* Por elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+      background-color: rgb(190, 187, 187);
+  }
+  
+  /* Por clase */  /* para evitar detallar todo esto: header, footer, nav, article, section, aside, creas una clase y la agregas a todos*/
+  .cambio {  
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Por ID */
+  #ppal {
+    color: aquamarine;
+  }
